@@ -83,7 +83,11 @@ h2{
     margin: 20px;
     padding: 20px;
     position: relative;
-    border-radius: 5px;
+    transition: .4s;
+}
+.content-item:hover{
+    box-shadow: 0px 0px 20px #bef104;
+    background-color: #3818ec;
 }
 .content-item p{
     text-align: justify;
