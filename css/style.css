@@ -71,6 +71,9 @@ h2{
     padding: 20px;
     position: relative;
 }
+.content-item p{
+    text-align: justify;
+}
 #border1{
     border-left: 7px solid;
     border-image: linear-gradient(tomato, orange);
