@@ -5,7 +5,7 @@
 } */
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 0px;
+    margin: 0px auto;
     background: #231feb;
     color: white;
 }
@@ -46,11 +46,12 @@ h2{
     color: white;
     padding: 10px 40px;
     font-weight: 700;
-    border-radius: 5px;
+    border-radius: 20px;
     transition:.4s;
 }
 .contact-btn:hover{
-    background-image: linear-gradient(90deg, #3818ec, #e511ec); 
+    background-image: linear-gradient(90deg, #3818ec, #e511ec);
+    box-shadow: 0px 0px 10px #bef104;
 }
 
 /* MAIN SECTION STRATS */
@@ -99,7 +100,7 @@ h2{
 }
 #border2{
     border-left: 7px solid;
-    border-image: linear-gradient(#231feb, #31cae6);
+    border-image: linear-gradient(#1feb30, #31cae6);
     border-image-slice: 1;
 }
 
@@ -114,4 +115,44 @@ h2{
 /* footer section */
 footer{
     text-align: center;
+}
+
+
+/* responsib design */
+
+@media screen and (max-width: 750px) {
+    body{
+        text-align: center;
+    }
+    header{
+        display: block;
+        padding: 20px;
+        margin: 0 auto;
+    }
+    .main-section{
+        display: block;
+        padding: 20px;
+    }
+    .half-width{
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+    .content{
+        display: block;
+    }
+    .content-item{
+        width: 80%;
+        margin: 40px auto;
+    }
+    .half-width p{
+        text-align: center;
+        margin: 20px 0px 40px 0px;
+    }
+    h1{
+        font-size: 36px;
+    }
+    h2{
+        font-size: 30px;
+    }
 }
