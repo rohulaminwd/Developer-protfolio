@@ -156,3 +156,13 @@ footer{
         font-size: 30px;
     }
 }
+
+@media screen and (max-width: 990px) {
+    header{
+    }
+    .half-width img{
+        width: 100%;
+        margin-top: 62px;
+        line-height: 100%;
+    }
+}
