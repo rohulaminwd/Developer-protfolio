@@ -248,6 +248,9 @@ footer .weve#weve4{
     h2{
         font-size: 30px;
     }
+    footer .weve{
+        background-size: 500px 100px;
+    }
 }
 
 @media screen and (max-width: 990px) {
